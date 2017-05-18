@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".feedback"
+    android:weightSum="1">
+
+
+    <Spinner
+        android:id="@+id/sp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"></Spinner>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Lhide"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/sp"
+            android:layout_marginTop="29dp"
+            android:layout_weight="0.10"
+            android:text="Enter Name"
+            android:textSize="18sp" />
+
+
+        <EditText
+            android:id="@+id/sendTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textview"
+            android:layout_gravity="end"
+            android:hint="Enter Name"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:layout_alignLeft="@+id/submit"
+            android:layout_alignStart="@+id/submit" />
+
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/sendTo"
+            android:layout_marginTop="19dp"
+            android:text="Subject"
+            android:textSize="18sp"
+            android:layout_alignRight="@+id/textview"
+            android:layout_alignEnd="@+id/textview" />
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/textview2"
+            tools:layout_editor_absoluteX="121dp"
+            tools:layout_editor_absoluteY="121dp"
+            android:hint="Write Subject"
+            android:layout_alignLeft="@+id/sendTo"
+            android:layout_alignStart="@+id/sendTo" />
+
+        <TextView
+            android:id="@+id/Textview3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Feedback:"
+            android:textSize="18sp"
+            android:layout_below="@+id/textview2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/textview2"
+            android:layout_alignEnd="@+id/textview2" />
+
+        <EditText
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/Textview3"
+            android:layout_marginTop="10dp"
+            android:hint="Write Feedback"
+            android:inputType="textMultiLine"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:gravity="center"
+            android:text="Submit"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="147dp"
+            tools:layout_editor_absoluteY="433dp"
+            android:layout_below="@+id/feedback"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:text="OR"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:id="@+id/textview4"
+            android:layout_below="@+id/submit"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/Textview3"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/Textview3"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/ic_call_black_24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:id="@+id/textview5"
+                android:layout_alignTop="@+id/button"
+                android:layout_toRightOf="@+id/button"
+                android:layout_margin="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignBottom="@+id/button" />
+        </LinearLayout>
+    </LinearLayout></ScrollView>
+</LinearLayout>

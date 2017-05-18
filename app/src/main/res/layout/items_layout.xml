@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            card_view:theme="@style/AppTheme"
+            style="@style/Base.CardView"
+            card_view:cardBackgroundColor="@color/white"
+            card_view:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image_display"
+                android:scaleType="centerCrop"
+                android:layout_width="190dp"
+                android:layout_height="170dp"
+                />
+
+            <vishal_shirke.finalapp.TextViewTitle
+                android:id="@+id/textView2"
+                android:layout_width="190dp"
+                android:padding="5dp"
+                android:layout_below="@+id/image_display"
+                android:textSize="16dp"
+                android:ellipsize="end"
+                android:text="khCVHHABCkjhBFKHvefvqererferveqrvefvergergeqrg"
+                android:textStyle=""
+                android:maxLines="2"
+                android:textColor="@color/TileColors1"
+                android:layout_height="50dp"
+                />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

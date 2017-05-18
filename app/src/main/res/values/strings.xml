@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">NCPCR</string>
+    <string name="activityname">NCPCR</string>
+    <string name="actiacts">ACTS</string>
+    <string name="actrights">RIGHTS</string>
+    <string name="actinews">NEWS FEED</string>
+    <string name="activideos">VIDEOS</string>
+    <string name="aboutus">About Us</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="home">Home</string>
+    <string name="acts">Acts</string>
+    <string name="rights">Rights</string>
+    <string name="news">News</string>
+    <string name="language">Language</string>
+    <string name="share">Share App</string>
+    <string name="feedback">Raise your voice</string>
+    <string name="contact">Contact Us</string>
+    <string name="about">About Us</string>
+    <string name="ncpcr">NCPCR</string>
+    <string name="textact">Acts</string>
+    <string name="textright">Rights</string>
+    <string name="textnewsf">News Feed</string>
+    <string name="communicate">Communicate</string>
+
+    <string name="viewstats">View Stats</string>
+    <string name="article">View Full Article</string>
+
+    <string name="actno">Act No</string>
+    <string name="year">and Year</string>
+    <string name="penalties">Penalties</string>
+    <string name="summary">SUMMARY :</string>
+
+    <string-array name="actnames">
+        <item>select category</item>
+        <item>Posco Act</item>
+        <item>Right To Education</item>
+        <item>Juvenile Justice</item>
+    </string-array>
+
+    <string name="aboutusdata">The National Commission for Protection of Child Rights (NCPCR) was set up in March 2007 under the Commission for Protection of Child Rights (CPCR) Act, 2005, an Act of Parliament (December 2005). NCPCR is a statutory body under the CPCR Act,2005 under the administrative control of the Ministry of Women and Child Development ,Government of India. The Commission\'s Mandate is to ensure that all Laws, Policies, Programmes, and Administrative Mechanisms are in consonance with the Child Rights perspective as enshrined in the Constitution of India and also the UN Convention on the Rights of the Child. </string>
+
+    <string name="act1">POSCO</string>
+    <string name="act2">Bonded Labour system Act</string>
+    <string name="act3">Child Labour Act</string>
+    <string name="act4">The children act</string>
+    <string name="act5">Child pledging labour act</string>
+    <string name="act6">The factories act</string>
+    <string name="act7">NCPCR</string>
+    <string name="act8">Free,compulsory education Act</string>
+    <string name="act9">Mine Act</string>
+    <string name="act10">The Guardians abd ward Act</string>
+    <string name="act11">Immoral traffic Act</string>
+    <string name="act12">Reformatory school Act</string>
+    <string name="act13">Juvenile justice Act</string>
+    <string name="act14">The national food and security Bill Act</string>
+    <string name="act15">The Young persons Act</string>
+    <string name="act16">Infant milk Act</string>
+    <string name="act17">Prenatal Diagnostic Tech</string>
+    <string name="act18">Care and Protection Act</string>
+
+    <string name="stack_empty">Card stack empty!</string>
+    <string name="right0">Who are children\'s?</string>
+    <string name="right1">Right Of Survival</string>
+    <string name="right2">Right Of Protection</string>
+    <string name="right3">Right Of Development</string>
+    <string name="right4">Right Of Participation</string>
+    <string name="right5">Right To Be Born</string>
+    <string name="right6">Right to be protected from physical and sexual abuse</string>
+    <string name="right7">Right to freedom of expression</string>
+    <string name="right8">Right to education</string>
+    <string name="right9">Right to information</string>
+
+    <string name="large_text">
+        <b><i>The National Comission for Protection of Child Rights \n\n (NCPCR) emphasizes principle of universality\n\n
+        of child right and recognizes the tone of urgency in all the \n\n child related policies of the countries.\n</i></b>
+    </string>
+
+    <string name="right10">Defining what age a person is or ceases to be a child is a constant debate in the India.The Census of India considers children to be any person below the age of 14, as do most government programmes. Biologically childhood is the stage between infancy and adulthood. According to the UNCRC \'a child means every human being below the age of eighteen years unless, under the law applicable to the child, majority is attained earlier\'. This definition of child allows for individual countries to determine according to the own discretion the age limits of a child in their own laws. But in India various laws related to children define children in different age limits. </string>
+    <string name="right11">► Article 6 of the Convention on the Rights of the Child (CRC) states that children have the right to live and governments should ensure that children survive and develop healthily.\n► Right to minimum standards of food, shelter and clothing\n► Right to live with dignity\n► Right to health care, to safe drinking water, nutritious food, a clean and safe environment, and information to help them stay healthy
+</string>
+    <string name="right12">► Child protection is the process of protecting individual children identified as either suffering, or likely to suffer, significant harm as a result of abuse\n► Right to be protected from all sorts of violence\n► Right to be protected from neglect\n► Right to be protected from dangerous drugs\n► Right to be protected from any hazardous employment till the age of 14 years </string>
+    <string name="right13">► Right to learn,Right to relax and play\n► Right to all forms of development – emotional, mental and physical\n► Emotional development is fulfilled by proper care and love of a support system, mental development through education and learning and physical development through recreation, play and nutrition.</string>
+    <string name="right14">► Rigtht to freedom of opinion.\n► Participation is a right for all.\n► Right to participate in any decision making that involves him/her directly or indirectly.\n► Right to freedom of opinion.Right to freedom of association.right to information.</string>
+    <string name="right15">► All human beings are born free and equal in dignity and rights.\n► They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.</string>
+    <string name="right16">► All children have the right to be protected from violence, exploitation and abuse.\n► Yet, millions of children worldwide from all socio-economic backgrounds, across all ages, religions and cultures suffer violence, exploitation and abuse every day.\n► Some girls and boys are particularly vulnerable because of gender, race,  or socio-economic status.	</string>
+    <string name="right17">► The Constitution of India provides the right of freedom, given in articles 19, 20, 21 and 22, with the view of guaranteeing individual rights that were considered vital by the framers of the constitution.\n► The right to freedom in Article 19 guarantees the Freedom of speech and expression, as one of its six freedoms.
+	</string>
+    <string name="right18">► Education is a fundamental human right and essential for the exercise of all other human rights.\n► It promotes individual freedom and empowerment and yields
+important development benefits.\n► Yet millions of children and adults remain deprived of educational opportunities, many as a result of poverty.	</string>
+    <string name="right19">► Parliament of India. Date enacted.\n► 15-June-2005.Right to Information (RTI) is an Act of the Parliament of India to provide for setting out the practical regime
+of right to information for citizens and replaces the erstwhile Freedom of information Act, 2002.\n► Under the provisions of the Act, any citizen of India may request
+information from a "public authority" which is required to reply expeditiously or within thirty days.</string>
+    <string name="toast">You have chosen english language</string>
+    <string name="title_activity_acts_details">ActsDetails</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="actngo">NGO</string>
+
+
+    <string-array name="array_keyword">
+        <item>sexual abusement</item>
+        <item>harasment</item>
+        <item>penetration</item>
+        <item>sexual assult</item>
+        <item>sexual offense</item>
+        <item>sexual abusement</item>
+        <item>POSCO</item>
+    </string-array>
+</resources>

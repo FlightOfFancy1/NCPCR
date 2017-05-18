@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/back"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?android:attr/colorForegroundInverse"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="Act Title"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <android.support.v7.widget.CardView
+                style="@style/Base.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                app:cardBackgroundColor="?attr/colorPrimaryDark"
+                android:visibility="gone">
+
+
+            </android.support.v7.widget.CardView>
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="fitXY" />
+
+
+            <TextView
+                android:id="@+id/txtactno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="@string/actno"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+
+            <android.support.v7.widget.CardView
+                style="@style/Base.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingBottom="10dp"
+                android:background="@color/white"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true"
+                android:visibility="gone">
+
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/Base.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardElevation="5dp"
+                android:background="@color/white"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/colorForegroundInverse"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/shead"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/summary"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/txtsummary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="mwqqwjdvjvedgwcdekghqwvcdkghq cwdghqc wdkghcqwghdcq   khgwcdgkh   qcwdhgk qcwdkgh qcdwjwebdkhj  qevu    qvwdljh qvebclh qevwljh qvelcjhvwdchjlv wljhc   wehjlcv wljhcbv ljhdbc; kjwdhvl uqhbde  hjewvd;jkqw;bd; qjwbd;  qkhwvd  qhwvd;kbjqwdhk  qvwd"/>
+               <Button
+                   android:id="@+id/btnpie"
+                   style="@style/Widget.AppCompat.Button.Colored"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:background="@color/colorPrimary"
+                   android:text="@string/viewstats" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                style="@style/Base.CardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="5dp"
+                app:cardElevation="5dp"
+                app:cardPreventCornerOverlap="false"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="?android:attr/colorForegroundInverse"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+
+                        android:id="@+id/phead"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="@string/penalties"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="5dp"/>
+
+                    <TextView
+                        android:id="@+id/txtpenalties"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:text="jwebdkhj  qevu    qvwdljh qvebchfg hgchgchgchgcycjfghxutxgjfxjgfxgflh qevwljh qvelcjhvwdchjlv wljhc   wehjlcv wljhcbv ljhdbc; kjwdhvl uqhbde  hjewvd;jkqw;bd; qjwbd;  qkhwvd  qhwvd;kbjqwdhk  qvwd"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+            <Button
+                    android:id="@+id/pdf"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:padding="10dp"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/article" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="15dp"
+        app:backgroundTint="@color/fab"
+        app:srcCompat="@android:drawable/ic_menu_share">
+    </android.support.design.widget.FloatingActionButton>
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="fontlib-support-5.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/befa73af2ccbad0d716b5476e49d730a986b490f/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/befa73af2ccbad0d716b5476e49d730a986b490f/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.innovattic/fontlib-support/5.0.0/fcb24d6efc779ffcbda4a3c21f303a8e18407162/fontlib-support-5.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

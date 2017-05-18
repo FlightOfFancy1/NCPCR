@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/splashacti"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/splash"
+    android:gravity="center"
+    tools:context=".Splash">
+<vishal_shirke.finalapp.TextViewRegular
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Child Helpline Number
+1198"
+    android:textSize="24sp"
+    android:textAlignment="center"
+    android:paddingTop="10dp"
+    android:textStyle="bold"
+    />
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/video"/>
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vishal_shirke.finalapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_DIAL" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/activityname"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".grid_view"
+            android:label="@string/actiacts"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".newsfeed"
+            android:label="@string/actinews"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".rights"
+            android:label="@string/actrights"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".ActsDetails"
+            android:label="Acts Details"
+            android:parentActivityName=".grid_view"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".pdfopner" />
+        <activity
+            android:name=".About_us"
+            android:label="About Us"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".piechart" />
+        <activity android:name=".videolist" />
+        <activity android:name=".videos" />
+        <activity
+            android:name=".feedback"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".implink"></activity>
+        <activity android:name=".SpinnerActivity"></activity>
+        <activity android:name=".webngo"></activity>
+    </application>
+
+</manifest>

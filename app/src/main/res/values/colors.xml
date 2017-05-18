@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7B1FA2</color>
+    <color name="colorPrimaryDark">#6A1B9A</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="TileColors1">#000000</color>
+    <color name="back">#eceff1</color>
+    <color name="white">#ffffff</color>
+    <color name="stack">#EEEEEE</color>
+    <color name="card">#E0E0E0</color>
+    <!--<color name="">#fafafa</color>-->
+    <color name="textview">#120808</color>
+    <color name="splash">#b20417</color>
+
+    <color name="fab">#ff4500</color>
+
+    <color name="color1">#dc1000</color>
+    <color name="color2">#81c7a1</color>
+    <color name="color3">#024913</color>
+    <color name="color4">#004081</color>
+    <color name="darkyellow">#ffc308</color>
+    <color name="yellow">#ffff00</color>
+</resources>

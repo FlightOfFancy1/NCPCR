@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_account_balance_black_24dp"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_acts"
+            android:icon="@mipmap/ic_readingbook"
+            android:title="@string/acts" />
+        <item
+            android:id="@+id/nav_newsfeed"
+            android:icon="@mipmap/ic_tv"
+            android:title="@string/news" />
+        <item
+            android:id="@+id/nav_rights"
+            android:icon="@mipmap/ic_face_black_24dp"
+            android:title="@string/rights" />
+        <item
+            android:id="@+id/nav_language"
+            android:icon="@mipmap/ic_language"
+            android:title="@string/language" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@mipmap/ic_share_black_24dp"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_raise"
+            android:icon="@mipmap/ic_hand"
+            android:title="Raise your voice" />
+        <item
+            android:id="@+id/implinks"
+            android:icon="@mipmap/ic_import_contacts_black_24dp"
+            android:title="Important Links" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/ic_assignment_black_24dp"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/nav_ngo"
+            android:icon="@mipmap/ic_assignment_black_24dp"
+            android:title="NGO" />
+
+    </group>
+</menu>

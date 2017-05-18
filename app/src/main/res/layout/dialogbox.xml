@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="300dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+
+        android:text="Select Language"/>
+
+    <RelativeLayout
+        android:id="@+id/realHin"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/hind"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="हिंदी"/>
+
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_height="0.5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"/>
+
+    <RelativeLayout
+        android:id="@+id/realEn"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="50dp">
+
+        <TextView
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
